@@ -77,7 +77,10 @@ python scraping_script.py
 - `scroll_to_bottom()`: Scrolls through the oage until all models are loaded.
 - `get_module_data()`: Collects the IDs and links for each module from the loaded search results.
 - `scrape_page()`: Visits each module page to parse its details (manufacturer, description, price, etc.). Uploads the primary product image to Cloudinary and retrieves its secure URL.
+- Main Flow: Combines "currently available" and "discontinued" data into a final CSV.
 
+
+Issues and pull requests are welcome. If you add or improve features, feel free to open a PR.
 
 
 
